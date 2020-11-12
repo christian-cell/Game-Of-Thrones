@@ -1,0 +1,50 @@
+.padre{
+    background-color: black;
+    text-align: center;
+    color:white;
+    height: auto;    
+}
+
+.imgHouse{
+    width: 150px;
+    height: 250px;
+}
+.main-container{
+    justify-content: center;
+    text-align: center;
+   
+    display: flex;
+    flex-wrap: wrap;
+
+    &__contenedor{
+        align-items: center;
+        height: 400px;
+        width: 150px;
+        margin:20px
+    }
+    &__ul{
+        list-style: none;
+        align-items: center;
+        text-align: center;
+    }
+    &__titulo{
+        text-align: center;
+        text-decoration: underline;
+    }
+    
+}
+
+.scroll{
+    overflow-y: scroll;
+
+    scrollbar-width: 2px;
+    scrollbar-color: rgb(245, 245, 242) #0a0a0a;
+    scrollbar-color:white;
+    height: 300px;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+

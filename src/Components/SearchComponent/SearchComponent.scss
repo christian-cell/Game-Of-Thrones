@@ -1,0 +1,32 @@
+.search_container{
+    margin-top: 20px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.search_icon{
+    padding: 4px;
+}
+.fas{
+    color: blanchedalmond;
+    border-bottom: solid 1px blanchedalmond;
+    font-size: 20px;
+}
+.search_input{
+    width: 60%;
+    margin-right: 130px;
+}
+.input_s{
+    background-color: black;
+    color: blanchedalmond;
+    border: none;
+    border-bottom: solid 1px blanchedalmond;
+    height: 20px;
+    width: 50%;
+}
+.home-container{
+    margin-right: 20px;
+}
